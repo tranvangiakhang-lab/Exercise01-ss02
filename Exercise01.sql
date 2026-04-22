@@ -1,0 +1,9 @@
+CREATE DATABASE exercise01
+USE exercise01
+
+CREATE TABLE PRODUCTS (
+    ID INT PRIMARY KEY,
+    ProductName VARCHAR(100) NOT NULL,
+    Price DECIMAL(10, 2) NOT NULL,
+    Description VARCHAR(500)
+);
